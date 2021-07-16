@@ -1,6 +1,6 @@
 {
   "name": "@sidiropoulos/example-app",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "author": "Harris Sidiropoulos",
   "publishConfig": {
     "access": "public"
