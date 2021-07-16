@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "projects": {
+    "@sidiropoulos/example-app": {
+      "root": "packages/app",
+      "type": "library"
+    },
+    "@sidiropoulos/shared-components": {
+      "root": "packages/shared-components",
+      "type": "library"
+    }
+  }
+}
