@@ -1,6 +1,6 @@
 {
-  "name": "test-shared-components",
-  "version": "0.1.2",
+  "name": "@sidiropoulos/shared-components",
+  "version": "0.1.3",
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "files": [
@@ -61,5 +61,5 @@
     "ts-jest": "^26.4.4",
     "typescript": "^4.1.3"
   },
-  "gitHead": "8c78b191c64d358e6238225643827014d974fb0e"
+  "gitHead": "9925f6ca03ece7f6e897484c48fc5ddae8e71813"
 }
