@@ -2,6 +2,14 @@
   "name": "@sidiropoulos/example-app",
   "version": "0.1.7",
   "author": "Harris Sidiropoulos",
+  "keywords": [
+    "React",
+    "Component",
+    "Library",
+    "Typescript",
+    "Sass"
+  ],
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
