@@ -1,5 +1,5 @@
 {
-  "name": "@test/shared-components",
+  "name": "test-shared-components",
   "version": "0.1.2",
   "main": "build/index.js",
   "module": "build/index.esm.js",
@@ -20,6 +20,7 @@
     "generate": "node ./util/create-component",
     "prepublishOnly": "npm run build"
   },
+  "author": "Harris Sidiropoulos",
   "keywords": [
     "React",
     "Component",

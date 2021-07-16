@@ -1,4 +1,4 @@
-import { TestComponent } from '@test/shared-components';
+import { TestComponent } from 'test-shared-components';
 
 function App() {
   return (
