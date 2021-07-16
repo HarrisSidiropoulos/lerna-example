@@ -12,7 +12,7 @@
     "copy:build": "mkdir -p ../../dist/packages/shared-components && cp -R build ../../dist/packages/shared-components/build",
     "copy:package": "cp package.json ../../dist/packages/shared-components",
     "clean": "rm -rf ../../dist/packages/shared-components",
-    "build": "rollup -c && npm run clean && npm run copy:build && npm run copy:package",
+    "build": "rollup -c",
     "test": "jest",
     "test:watch": "jest --watch",
     "storybook": "start-storybook -p 6006",

@@ -1,8 +1,10 @@
 {
-  "name": "root",
+  "name": "test",
   "private": true,
   "devDependencies": {
     "lerna": "^4.0.0"
   },
-  "packages": ["packages/*"]
+  "workspaces": {
+    "packages": ["packages/*"]
+  }
 }
