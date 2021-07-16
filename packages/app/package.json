@@ -25,13 +25,14 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "react-test-renderer": "^17.0.2",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -52,5 +53,8 @@
       "last 1 safari version"
     ]
   },
-  "gitHead": "f3a51fc3d8294ff5c946f0f61fe6ec72a6a8099b"
+  "gitHead": "f3a51fc3d8294ff5c946f0f61fe6ec72a6a8099b",
+  "devDependencies": {
+    "@types/react-test-renderer": "^17.0.1"
+  }
 }
