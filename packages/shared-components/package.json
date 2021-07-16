@@ -1,8 +1,11 @@
 {
   "name": "@sidiropoulos/shared-components",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "build/index.js",
   "module": "build/index.esm.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "build"
   ],
@@ -61,5 +64,5 @@
     "ts-jest": "^26.4.4",
     "typescript": "^4.1.3"
   },
-  "gitHead": "9925f6ca03ece7f6e897484c48fc5ddae8e71813"
+  "gitHead": "f3a51fc3d8294ff5c946f0f61fe6ec72a6a8099b"
 }
