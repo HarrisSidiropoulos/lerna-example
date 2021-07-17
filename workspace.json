@@ -3,11 +3,63 @@
   "projects": {
     "@sidiropoulos/example-app": {
       "root": "packages/app",
-      "type": "library"
+      "type": "application",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/workspace:run-commands",
+          "options": {
+              "commands": [
+                "npm run build"
+              ],
+              "cwd": "packages/app",
+              "parallel": false
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "packages/app/**/*.ts",
+              "packages/app/**/*.tsx",
+              "packages/app/**/*.spec.ts",
+              "packages/app/**/*.spec.tsx",
+              "packages/app/**/*.spec.jsx",
+              "packages/app/**/*.d.ts"
+            ]
+          }
+        }
+      }
     },
     "@sidiropoulos/shared-components": {
       "root": "packages/shared-components",
-      "type": "library"
+      "sourceRoot": "packages/shared-components/src",
+      "type": "library",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/workspace:run-commands",
+          "options": {
+              "commands": [
+                "npm run build"
+              ],
+              "cwd": "packages/shared-components",
+              "parallel": false
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "packages/shared-components/src/**/*.ts",
+              "packages/shared-components/src/**/*.tsx",
+              "packages/shared-components/src/**/*.spec.ts",
+              "packages/shared-components/src/**/*.spec.tsx",
+              "packages/shared-components/src/**/*.spec.jsx",
+              "packages/shared-components/src/**/*.d.ts"
+            ]
+          }
+        }
+      }
     }
-  }
+  },
+  "defaultProject": "@sidiropoulos/example-app"
 }
