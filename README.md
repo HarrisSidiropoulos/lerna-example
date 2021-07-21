@@ -2,7 +2,6 @@
 
 Playground for testing monorepos tools like Lerna and Nx.
 
-
 ## How to initialise the monorepo
 
 In the project directory, you have to run:

@@ -1,6 +1,5 @@
 # React Component Library
 
-
 ## Development
 
 ### Testing
