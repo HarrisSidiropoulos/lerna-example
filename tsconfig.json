@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@sidiropoulos/example-app": ["./packages/app/src/*"],
+      "@sidiropoulos/shared-components": ["./packages/shared-components/src"],
+    },
+  }
+}
