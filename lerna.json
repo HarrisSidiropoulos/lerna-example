@@ -8,7 +8,7 @@
     "version": {
       "allowBranch": ["main"],
       "message": "chore(release): release"
-    }  
+    }
   },
   "npmClient": "yarn",
   "useWorkspaces": true
