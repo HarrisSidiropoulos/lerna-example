@@ -62,8 +62,10 @@ jobs:
 
       - run: git status
       - run: echo "${{ github.event.commits[0].message }}"
-      - run: git config --global user.email "${{ secrets.EMAIL }}"
-      - run: git config --global user.name "${{ secrets.USERNAME }}"
+      - run: |
+          git config --global user.name 'Harris Sidiropoulos'
+          git config --global user.email 'harrissidiropoulos@users.noreply.github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
       - run: npm run publish:packages -- --message='${{ github.event.commits[0].message }}' --registry https://registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
