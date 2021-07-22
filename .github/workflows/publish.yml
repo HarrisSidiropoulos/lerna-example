@@ -62,8 +62,8 @@ jobs:
 
       - run: git status
       - run: echo "${{ github.event.commits[0].message }}"
-      - run: git config --global user.email "harris.sidiropoulos@gmail.com"
-      - run: git config --global user.name "harris.sidiropoulos"
+      - run: git config --global user.email "${{ secrets.EMAIL }}"
+      - run: git config --global user.name "${{ secrets.USERNAME }}"
       - run: npm run publish:packages -- --message='${{ github.event.commits[0].message }}' --registry https://registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
