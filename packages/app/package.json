@@ -1,6 +1,6 @@
 {
   "name": "@sidiropoulos/example-app",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "author": "Harris Sidiropoulos",
   "keywords": [
     "React",
@@ -14,8 +14,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@types/react-test-renderer": "16.9.3",
-    "@sidiropoulos/shared-components": "^0.1.9",
+    "@sidiropoulos/shared-components": "^0.1.10",
     "@testing-library/jest-dom": "5.11.4",
     "@testing-library/react": "11.1.0",
     "@testing-library/user-event": "12.1.10",
@@ -23,6 +22,7 @@
     "@types/node": "12.0.0",
     "@types/react": "16.9.12",
     "@types/react-dom": "16.9.8",
+    "@types/react-test-renderer": "16.9.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-scripts": "4.0.3",
