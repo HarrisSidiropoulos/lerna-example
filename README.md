@@ -9,9 +9,8 @@ Playground for testing monorepos tools like Lerna and Nx.
 In the project directory, you have to run:
 
 ```
-yarn
-yarn lerna bootstrap
-yarn lerna run build
+npm ci
+npm run build
 ```
 
 ## How to start
@@ -19,7 +18,7 @@ yarn lerna run build
 In the project directory, you have to run:
 
 ```
-yarn lerna run start
+npm run start
 ```
 
 Runs the app in the development mode.\
@@ -29,14 +28,14 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
 ```
-yarn lerna run test
+npm run test
 ```
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ```
-yarn lerna run build
+npm run build
 ```
 
 Builds the app for production to the `build` folder.\
