@@ -5,6 +5,14 @@
       "root": "packages/app",
       "type": "application",
       "architect": {
+        "start": {
+          "builder": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": ["npm run start"],
+            "cwd": "packages/app",
+            "parallel": false
+          }
+        },
         "build": {
           "builder": "@nrwl/workspace:run-commands",
           "options": {
