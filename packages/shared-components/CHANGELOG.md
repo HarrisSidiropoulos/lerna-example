@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.17 (2021-07-23)
+
+
+### Bug Fixes
+
+* push after publish ([b0a6707](https://github.com/HarrisSidiropoulos/lerna-example/commit/b0a6707f929f8863e7f2d44d722c9a7d7a9b3b3b))
+
+
+
+
+
 ## 0.1.13 (2021-07-22)
 
 **Note:** Version bump only for package @sidiropoulos/shared-components
