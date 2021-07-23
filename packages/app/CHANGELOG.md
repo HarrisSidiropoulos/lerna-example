@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/HarrisSidiropoulos/lerna-example/compare/@sidiropoulos/example-app@0.3.0...@sidiropoulos/example-app@0.4.0) (2021-07-23)
+
+
+### Features
+
+* Test conventional commits2 ([#9](https://github.com/HarrisSidiropoulos/lerna-example/issues/9)) ([4436e22](https://github.com/HarrisSidiropoulos/lerna-example/commit/4436e22a4064f3572734ccd6b952fea815e55638))
+
+
+
+
+
 # 0.3.0 (2021-07-23)
 
 
