@@ -7,18 +7,14 @@ test('renders learn react link', () => {
 
   expect(app).toMatchInlineSnapshot(`
     <div
-      className="App"
+      className="test-component test-component-primary"
+      data-testid="test-component"
     >
-      <div
-        className="test-component test-component-primary"
-        data-testid="test-component"
+      <h1
+        className="heading"
       >
-        <h1
-          className="heading"
-        >
-          I'm the test component!
-        </h1>
-      </div>
+        I'm the test component!
+      </h1>
     </div>
   `);
 });
