@@ -8,7 +8,7 @@
     "build": "nx run-many --target=build --all=true --parallel=true",
     "test": "nx run-many --target=test --all=true --parallel=true",
     "lint": "nx run-many --target=lint --all=true --parallel=true",
-    "publish:packages": "lerna publish --ignore-prepublish --yes",
+    "publish:packages": "lerna publish --yes",
     "format": "prettier --ignore-path .gitignore --ignore-unknown --write ."
   },
   "devDependencies": {
