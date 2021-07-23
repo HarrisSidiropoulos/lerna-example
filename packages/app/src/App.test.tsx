@@ -10,7 +10,7 @@ test('renders learn react link', () => {
       className="App"
     >
       <div
-        className="test-component test-component-primary"
+        className="test-component test-component-secondary"
         data-testid="test-component"
       >
         <h1
