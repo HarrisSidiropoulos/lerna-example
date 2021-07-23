@@ -21,6 +21,14 @@
             "parallel": false
           }
         },
+        "test-snapshots": {
+          "builder": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": ["npm run test -- -u"],
+            "cwd": "packages/app",
+            "parallel": false
+          }
+        },
         "lint": {
           "builder": "@nrwl/linter:eslint",
           "options": {
@@ -54,6 +62,14 @@
           "options": {
             "commands": ["npm run test"],
             "cwd": "packages/shared-components",
+            "parallel": false
+          }
+        },
+        "test-snapshots": {
+          "builder": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": ["npm run test -- -u"],
+            "cwd": "packages/app",
             "parallel": false
           }
         },
