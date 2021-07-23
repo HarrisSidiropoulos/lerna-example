@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2021-07-23)
+
+
+### Features
+
+* Test conventional commits ([d5958ac](https://github.com/HarrisSidiropoulos/lerna-example/commit/d5958ac9f6a70ba8418cdbd9ad82fad1d1df0b60))
+
+
+
+
+
 ## 0.1.20 (2021-07-23)
 
 **Note:** Version bump only for package @sidiropoulos/shared-components

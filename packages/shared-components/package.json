@@ -1,6 +1,6 @@
 {
   "name": "@sidiropoulos/shared-components",
-  "version": "0.1.20",
+  "version": "0.2.0",
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "publishConfig": {
