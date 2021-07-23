@@ -2,6 +2,8 @@
 
 Playground for testing monorepos tools like Lerna and Nx.
 
+[![Node Continuous Integration](https://github.com/HarrisSidiropoulos/lerna-example/actions/workflows/integrate.yml/badge.svg?branch=main)](https://github.com/HarrisSidiropoulos/lerna-example/actions/workflows/integrate.yml)
+
 ## How to initialise the monorepo
 
 In the project directory, you have to run:
