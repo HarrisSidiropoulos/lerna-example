@@ -71,3 +71,18 @@ jobs:
       - run: npm run publish:packages
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Dependencies Graph
+      - uses: actions/checkout@v2
+        run: mkdir -p graph
+
+      - name: Lerna Graph
+      - uses: lerdajs/lerna-graph-action
+        with: 
+          rootPath: .
+          path: graph/image.png
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: lerna graph
+          path: graph/image.png
