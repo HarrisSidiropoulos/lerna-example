@@ -4,7 +4,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "yarn lerna run start",
+    "start": "nx run-many --target=start --all=true --parallel=true",
     "build": "nx run-many --target=build --all=true --parallel=true",
     "test": "nx run-many --target=test --all=true --parallel=true",
     "lint": "nx run-many --target=lint --all=true --parallel=true",
