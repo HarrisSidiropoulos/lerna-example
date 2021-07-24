@@ -10,13 +10,13 @@ test('renders learn react link', () => {
       className="App"
     >
       <div
-        className="test-component test-component-secondary"
+        className="test-component test-component-primary"
         data-testid="test-component"
       >
         <h1
           className="heading"
         >
-          I'm the test component!
+          I'm the test component!!!
         </h1>
       </div>
     </div>
