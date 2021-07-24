@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.1 (2021-07-24)
+
+**Note:** Version bump only for package @sidiropoulos/shared-components
+
+
+
+
+
 # 0.2.0 (2021-07-23)
 
 ### Features
