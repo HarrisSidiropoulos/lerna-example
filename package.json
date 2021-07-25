@@ -9,7 +9,7 @@
     "test": "nx run-many --target=test --all=true --parallel=true",
     "lint": "nx run-many --target=lint --all=true --parallel=true",
     "publish:packages": "lerna publish --yes",
-    "format": "prettier --ignore-path .gitignore --ignore-unknown --write ."
+    "format": "prettier --ignore-path .gitignore --ignore-unknown --write . \"!**/tsconfig.json\""
   },
   "devDependencies": {
     "@nrwl/cli": "12.5.9",
