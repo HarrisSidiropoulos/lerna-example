@@ -7,10 +7,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @sidiropoulos/shared-components
 
-
-
-
-
 # 0.2.0 (2021-07-23)
 
 ### Features
