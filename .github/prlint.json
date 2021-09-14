@@ -1,8 +1,8 @@
 {
-    "title": [
-      {
-        "pattern": "^((skip ci)|(major|minor|patch|chore)(\\((ODY|GDS|VK)\\-\\d+\\))):\\s\\S+",
-        "message": "Your title need to have a topic and a ticket number. e.g: minor(GDS-345): my new awesome changes"
-      }
-    ]
-  } 
+  "title": [
+    {
+      "pattern": "^(chore|docs|feat|fix){1}(\\([\\w-\\.]+\\))?(!)?:\\s.+",
+      "message": "Your title need to have a topic and a ticket number. e.g: feat(GDS-345): my new awesome changes"
+    }
+  ]
+}
