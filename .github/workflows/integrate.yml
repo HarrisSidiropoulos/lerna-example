@@ -38,7 +38,7 @@ jobs:
     needs: test_pull_request
     runs-on: ubuntu-latest
     if: >
-      startsWith(github.event.pull_request.title, 'feat') ||
+      startsWith(github.event.pull_request.title, 'feat') 
       || startsWith(github.event.pull_request.title, 'fix')
 
     steps:
