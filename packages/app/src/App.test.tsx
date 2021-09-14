@@ -14,7 +14,7 @@ test('renders learn react link', () => {
       className="App"
     >
       <TestComponent
-        theme="primary"
+        theme="secondary"
       />
     </div>
   `);
