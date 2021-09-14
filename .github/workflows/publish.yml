@@ -37,9 +37,9 @@ jobs:
   publish-npm:
     needs: build
     runs-on: ubuntu-latest
-    if: >
-      startsWith(github.event.pull_request.title, 'feat:') || startsWith(github.event.pull_request.title, 'feat(')
-      || startsWith(github.event.pull_request.title, 'fix:') || startsWith(github.event.pull_request.title, 'fix(')
+    if: |
+      startsWith(github.event.head_commit.message, 'feat') ||
+      startsWith(github.event.head_commit.message, 'fix')
 
     steps:
       - uses: actions/checkout@v2
