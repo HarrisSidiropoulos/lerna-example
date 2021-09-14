@@ -37,10 +37,9 @@ jobs:
   publish-npm:
     needs: test_pull_request
     runs-on: ubuntu-latest
-    if: |
-      !startsWith(github.event.pull_request.title, 'chore') &&
-      !startsWith(github.event.pull_request.title, 'docs') &&
-      !startsWith(github.event.pull_request.title, 'test')
+    if: >
+      startsWith(github.event.pull_request.title, 'feat:') || startsWith(github.event.pull_request.title, 'feat(')
+      || startsWith(github.event.pull_request.title, 'fix:') || startsWith(github.event.pull_request.title, 'fix(')
 
     steps:
       - uses: actions/checkout@v2

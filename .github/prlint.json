@@ -1,8 +1,8 @@
 {
   "title": [
     {
-      "pattern": "^(major|minor|fix|chore):\\s.+",
-      "message": "Your title needs to be prefixed with a topic"
+      "pattern": "^(chore|docs|feat|fix){1}(\\([\\w-\\.]+\\))?(!)?:\\s.+",
+      "message": "Your title need to have a topic and a ticket number. e.g: feat(GDS-345): my new awesome changes"
     }
   ]
 }
